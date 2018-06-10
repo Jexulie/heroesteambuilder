@@ -1,0 +1,51 @@
+.App {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-image: url('../img/bgw.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-content: space-between;
+}
+
+/* make static team list on bottom of view */
+
+.teamwrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 335px;
+  
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+
+.MainLeft{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.MainRight{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.main{
+  flex: 1 0 auto;
+}
+
+/* .footer{
+} */

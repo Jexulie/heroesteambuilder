@@ -1,0 +1,50 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    /* transform: rotate(45deg); */
+}
+img{
+    width: 100%;
+    transition: all .5s ease;
+    clip-path: circle(50%)
+}
+
+img:hover{
+    opacity: .5;
+    transition: all .5s ease;
+    transform: scale(.75);
+}
+
+li{
+    width: 75px;
+    margin: 10px;
+    
+    /* padding: 20px; */
+}
+
+h2{
+    font-size: 20px;
+}
+
+.filters{
+    display: flex;
+    flex-direction: column;
+}
+
+.filters > .holder{
+    margin-bottom: 20px;
+}
+
+
+
+.Heroes{
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroesHolder{
+    
+}

@@ -1,0 +1,19 @@
+.InfoBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.myteam{
+
+}
+
+.otteam{
+
+}
+
+.warn{
+    color: red;
+    
+}
